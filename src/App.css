@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family:Gilroy-Light; /* Гарнитура шрифта */
+  src: url(/src/components/fonts/giloryLight.otf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family:Gilroy-Regular; /* Гарнитура шрифта */
+  src: url(/src/components/fonts/gilroy-regular.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family:Gilroy-ExtraBold; /* Гарнитура шрифта */
+  src: url(/src/components/fonts/ofont.ru_Gilroy.ttf); /* Путь к файлу со шрифтом */
+ }
+ .app{
+   overflow-x: hidden;
+   overflow-y: hidden;
+  font-family: "DINPro";
+  position: relative;
+  padding: 0;
+  margin: 0;
+  float: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainContent{
+  background-image: url(./components//img/bg1.png);
+  width: 1024px;
+  height: 768px;
+  position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.homeButtonContent{
+  position: fixed;
+  top: 10px;
+  z-index: 999;
+  left: 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label{
+  position: fixed;
+  font-size: 14px;
+  left: 85px;
+  top: 734px;
+  width: 114px;
+  height: 24px;
+  z-index: 999;
+  
 }

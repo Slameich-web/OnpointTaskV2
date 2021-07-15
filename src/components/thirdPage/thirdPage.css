@@ -1,0 +1,199 @@
+.mainContent3{
+  background-image: url(../img/bg1.png);
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  top: -1536px;
+  left: 2048px;
+}
+a{
+    color: #000;
+    text-decoration: none;  
+}
+
+  .mainContentTextThirdPage {
+    
+    font-size: 20px;
+    top: 150px;
+    left: 300px;
+    font-family: "Gilroy";
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    position: relative;
+    z-index: 5;
+  }
+  .thirdPageLabel{
+    font-size: 80px;
+    position: relative;
+    font-family: "Gilroy-Regular";
+  }
+  .thirdPageTextBlock1{
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    width: 200px;
+    top: 190px;
+    left: 320px;
+    font-size: 19px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgb(178, 192, 236);
+  }
+  .thirdPageTextBlock2{
+    background-color: white;
+    position: relative;
+    font-size: 19px;
+    padding: 20px;
+    width: 150px;
+    top: 0px;
+    left: 650px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgb(178, 192, 236);
+  }
+  .thirdContentButton{
+    width: 170px;
+    top: 10px;
+    left: 600px;
+    text-align: right;
+    position: relative;
+  }
+  .mainContentButtonPlus{
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(244, 186, 207, 0.95) inset;
+  -moz-box-shadow: 0px 0px 5px 2px rgba(244, 186, 207, 0.95) inset;
+  box-shadow: 0px 0px 5px 2px rgba(244, 186, 207, 0.95) inset;
+  font-size: 30px;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  color:white;
+  text-align: center;
+  background-color: black;
+  z-index: 9;
+  position: relative;
+  }
+  .thirdPageLabel2{
+    width: 270px;
+    
+  }
+  .bottle{
+    position: relative;
+    top: -450px;
+    left: 10px;
+    z-index: 15;
+  }
+  .food{
+    z-index: 5;
+    position: relative;
+    top: -900px;
+    left: 10px;
+  }
+
+  .time{
+    z-index: 5;
+    position: relative;
+    top: -900px;
+    left: 270px;
+  }
+
+  .bubblePink21{
+    position: relative;
+  z-index: 15;
+  top: -900px;
+left: 270px;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+  .bubblePink22{
+    position: relative;
+  z-index: 15;
+  top: -1000px;
+  left: -470px;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+  .bubblePink23{
+    position: relative;
+    top: -600px;
+    left: 70px;
+  z-index: 15;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+  .bubblePink24{
+    position: relative;
+  width: 100px;
+  height: 100px;
+  top: -600px;
+  left: -770px;
+  z-index: 15;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+  .bubbleblue11{
+    position: relative;
+  width: 130px;
+  height: 130px;
+  top: -740px;
+  left: 270px;
+  z-index: 5;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+  .bubbleblue12{
+    position: relative;
+  width: 60px;
+  height: 60px;
+  top: -1300px;
+  left: 270px;
+  z-index: 15;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+
+  .bubbleblue13{
+    position: relative;
+  width: 60px;
+  height: 60px;
+  top: -1230px;
+  left: 590px;
+  z-index: 5;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+  @-webkit-keyframes AnimationBlueBaktiMove2 {
+    0% {
+      transform: translate(0%, 0%);
+    }
+    50% {
+      transform: translate(-55%, -100%);
+    }
+  
+  }
+  @keyframes AnimationBlueBaktiMove2 {
+    0% {
+      transform: translate(0%, 0%);
+    }
+  
+    50% {
+      transform: translate(-55%, -100%);
+    }
+  
+  }

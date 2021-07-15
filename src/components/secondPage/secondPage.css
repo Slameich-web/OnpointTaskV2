@@ -1,0 +1,141 @@
+.mainContent2{
+  background-image: url(../img/bg1.png);
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  top: -768px;
+  left: 1024px;
+}
+
+.prokrutka {
+    height: 450px; /* высота нашего блока */
+    width: 773px; /* ширина нашего блока */
+    background: #fff; /* цвет фона, белый */
+    border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+    overflow-x: scroll; /* прокрутка по горизонтали */
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    left: 90px;
+    font-family: "DINPro";
+    color: rgb(36, 36, 36);
+    line-height: 1.2;
+    text-align: left;
+    border-radius: 30px;
+    padding: 20px;
+    border: 20px solid white;
+    z-index: 99;
+    }
+    .pinkSpermSecondPage1{
+      background-image: url("../img/pink_sperm_page1.png");
+      background-repeat: no-repeat;
+      position: relative;
+      left: 520px;
+        top: -500px;
+        width: 200px;
+        height: 100px;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+        -webkit-animation: AnimationBlueSpermMove 3s;
+        animation: AnimationBlueSpermMove 3s ;
+        z-index: 1;
+    }
+    .pinkSpermSecondPage2 {
+      background-image: url("../img/pink_sperm_page1.png");
+      background-repeat: no-repeat;
+      position: relative;
+      left: 700px;
+      top: -640px;
+      width: 200px;
+      height: 100px;
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+      -webkit-animation: AnimationBlueSpermMove 3s;
+      animation: AnimationBlueSpermMove 3s ;
+      
+    }
+    .pinkSpermSecondPage3{
+      background-image: url("../img/pink_sperm_page1.png");
+      background-repeat: no-repeat;
+      position: relative;
+      left: 920px;
+      top: -500px;
+        width: 200px;
+        height: 100px;;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation: AnimationBlueSpermMove 3s;
+    animation: AnimationBlueSpermMove 3s ;
+    }
+    .pinkSpermSecondPage4{
+      background-image: url("../img/pink_sperm_page1.png");
+      background-repeat: no-repeat;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+        -webkit-animation: AnimationBlueSpermMove 3s;
+        animation: AnimationBlueSpermMove 3s ;
+        position: relative;
+        left: 940px;
+        top: -400px;
+        width: 200px;
+        height: 100px;
+    }
+    .pinkSpermSecondPage5{
+      background-image: url("../img/pink_sperm_page1.png");
+      background-repeat: no-repeat;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+        -webkit-animation: AnimationBlueSpermMove 3s;
+        animation: AnimationBlueSpermMove 3s ;
+        position: relative;
+        left: 850px;
+        top: -980px;z-index: 121;
+        width: 200px;
+        height: 100px;
+    }
+    .mainContentTextSecondPage{
+        font-size: 23px;
+        letter-spacing:3px;
+        font-family: "DINPro";
+        color: rgb(36, 36, 36);
+        text-transform: uppercase;
+        position: relative;
+
+        top: 80px;
+        left: 80px;
+        text-align: left;
+        z-index: 7;
+      }
+      @-webkit-keyframes AnimationBlueSpermMove {
+        0% {
+          transform: translate(0%, 0%);
+        }
+        100% {
+          transform: translate(55%, 100%);
+        }
+      
+      }
+      @keyframes AnimationBlueSpermMove {
+        0% {
+        transform: translate(55%, 100%);
+      }
+      100% {
+        transform: translate(0%, 0%);
+      }
+      }  
+      ::-webkit-scrollbar {
+        width: 15px; /* ширина для вертикального скролла */
+        height: 0px; /* высота для горизонтального скролла */
+        background: linear-gradient(to right, #FFF 30%, #000 30%, #000 70%, #FFF 70%);; /* Цвет скроллбара */
+      }
+      
+      /* ползунок скроллбара */
+      ::-webkit-scrollbar-thumb {
+        border-radius: 5px; /* Закругление углов ползунка скроллбара */
+        background: #ff6a9f;      
+        background-size: 100px; 
+      }
+      ::-webkit-resizer{
+        height: 10px;
+      }
+    

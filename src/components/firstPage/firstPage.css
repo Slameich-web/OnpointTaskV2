@@ -1,0 +1,238 @@
+.mainContent1{
+  background-image: url(../img/bg1.png);
+  width: 1024px;
+  height: 768px;
+  position: relative;
+}
+.bakti_1 {
+    background-image: url("../img/bakti_111.png");
+    position: relative;
+    top:-250px;
+    left: -100px;
+    width: 73px;
+    height: 71px;
+    z-index: 4;
+  }
+  .bakti_2{
+    background-image: url("../img/bakti_111.png");
+    position: relative;
+    top:-500px;
+    left: 400px;
+    width: 73px;
+    height: 71px;
+    z-index: 4;
+  }
+  .pink_sperm {
+    background-image: url("../img/pink_sperm.png");
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    position: relative;
+    top:-120px;
+    left: -100px;;
+    width: 413px;
+    height: 183px;
+    z-index: 5;
+  }
+  .pink_sperm_1 {
+    background-image: url("../img/pink_sperm_1.png");
+    position: relative;
+    top:-650px;
+    left: 440px;
+    width: 592px;
+    height: 93px;
+    z-index: 11;
+  }
+  .blueBaktiFirst {
+    background-image: url("../img/bluebakti1.png");
+    position: relative;
+    top:-400px;
+    left: 300px;
+    width: 85px;
+    height: 77px;
+  }
+  .blueBaktiSecond {
+    background-image: url("../img/bluebakti1.png");
+    position: relative;
+    top:-990px;
+    left: 730px;
+    width: 85px;
+    height: 77px;
+  }
+  
+  .blueBaktiLong {
+    background-image: url("../img//bluebakti12.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top:-1050px;
+    left: -100px;
+    width: 214px;
+    height: 115px;
+    z-index: 16;
+  }
+  
+  
+  
+  .blueBaktiMove {
+    background-image: url("../img/animbluebakti.png");
+    position: relative;
+    top:-1150px;
+    left: 690px;
+    width: 63px;
+    height: 57px;
+    z-index: 15;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+    animation: AnimationBlueBaktiMove 15s infinite ease-in-out;
+  }
+  
+  .blueBaktiSize {
+    background-image: url("../img/animbluebaktisize.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top:-650px;
+    left: 600px;
+    width: 227px;
+    height: 224px;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation: AnimationBlueBaktiSize 10s infinite ease-in-out;
+    animation: AnimationBlueBaktiSize 10s infinite ease-in-out;
+  }
+  
+  .blueBaktiMove2 {
+    background-image: url("../img/animbluebakti2.png");
+    position: relative;
+    width: 110px;
+    height: 113px;
+    top:-1280px;
+    left: 600px;
+    z-index: 17;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation: AnimationBlueBaktiMove2 15s infinite ease-in-out;
+    animation: AnimationBlueBaktiMove2 15s infinite ease-in-out;
+  }
+  .mainContentHello {
+    padding-top: 155px;
+    padding-bottom: -200px;
+    margin-left: 100px;
+
+    font-size: 23px;
+    letter-spacing:3px;
+    font-family: "DINPro";
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    text-align: left;
+    z-index: 7;
+  }
+  .mainContentText{
+    padding-top: 20px;
+    position: relative;
+    margin-left: 100px;
+    font-size: 90px;
+    letter-spacing:11px;
+    font-family: "Gilroy-Light";
+    color: rgb(23, 23, 23);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    z-index: 6;
+  }
+  .extraBold{
+    font-family:"Gilroy-ExtraBold";
+  }
+  .mainContentButton{
+    border-radius: 50px;
+    background: linear-gradient(to right, #ff8db5, #ff6a9f);
+    font-size: 25px;
+    padding: 20px;
+    top: -22px;
+    margin-left: 30px;
+    margin-top: 17px;
+    font-family: "Gilroy-Regular";
+    position: relative;
+    z-index: 8;
+    border:0;
+  }
+  .mainContentButtonPointer{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(244, 186, 207, 0.95) inset;
+    -moz-box-shadow: 0px 0px 5px 2px rgba(244, 186, 207, 0.95) inset;
+    box-shadow: 0px 0px 5px 2px rgba(244, 186, 207, 0.95) inset;
+    font-size: 30px;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    color:white;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    z-index: 9;
+  }
+@-webkit-keyframes AnimationBlueBaktiMove {
+  0% {
+    transform: translate(55%, 100%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+
+}
+@keyframes AnimationBlueBaktiMove {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  50% {
+    transform: translate(55%, 100%);
+  }
+
+}
+@-webkit-keyframes AnimationBlueBaktiMove2 {
+    0% {
+      transform: translate(0%, 0%);
+    }
+    50% {
+      transform: translate(-55%, -100%);
+    }
+  
+  }
+  @keyframes AnimationBlueBaktiMove2 {
+    0% {
+      transform: translate(0%, 0%);
+    }
+  
+    50% {
+      transform: translate(-55%, -100%);
+    }
+  
+  }
+  @-webkit-keyframes AnimationBlueBaktiSize {
+    0% {
+      transform: scale(1)
+    }
+  
+    50% {
+      transform: scale(1.2)
+    }
+  
+  }
+  @keyframes AnimationBlueBaktiSize {
+    0% {
+      transform: scale(1)
+    }
+  
+    50% {
+      transform: scale(1.2)
+    }
+  
+  } 
+  .nav1{
+    top: 768px;
+    position: absolute;
+  }
